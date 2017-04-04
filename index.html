@@ -12,11 +12,12 @@
   			<textarea id="texto" cols="100" rows="5" maxlength="140" onkeyup="contador(this.value)" onkeydown="contador(this.value)" placeholder="¿Qué está pasando?"></textarea>
 	  		<span>De</span>
 	  		<input  id="usuario"/>
-	  		<span id="caracteres" ></span>
+	  		<span id="caracteres">0</span>
             <span>/140</span>
-	  		<input type = "button" id="twittear" value="twittear" />
+	  		<input type = "button" id="twittear" value="twittear" onclick="publicacion()">
 	  		<hr/>
   		</section>
+  		<section id="twitee"></section>
 	</body>
 	<script type="text/javascript" src="Js/main.js"></script>
 </html>
